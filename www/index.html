@@ -1,0 +1,811 @@
+<html lang="en" class=" video supports csstransitions csstransforms3d" style="height: auto;"><head>
+    <meta charset="utf-8">
+    <title>로또리코 </title>
+    <meta name="description" content="">
+    <meta name="Author" content="Dorin Grigoras [www.stepofweb.com]">
+
+    <!-- mobile settings -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+    <!-- WEB FONTS : use %7C instead of | (pipe) -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css">
+
+    <!-- CORE CSS -->
+    <link href="/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- THEME CSS -->
+    <link href="/assets/css/essentials.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/layout.css" rel="stylesheet" type="text/css">
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <link href="/assets/css/header-1.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme">
+
+    <!-- REVOLUTION SLIDER -->
+    <link href="/assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css">
+    <link href="/assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+KR&amp;display=swap" rel="stylesheet">
+    <!--font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;-->
+</head>
+
+<!--
+    AVAILABLE BODY CLASSES:
+
+    smoothscroll 			= create a browser smooth scroll
+    enable-animation		= enable WOW animations
+
+    bg-grey					= grey background
+    grain-grey				= grey grain background
+    grain-blue				= blue grain background
+    grain-green				= green grain background
+    grain-blue				= blue grain background
+    grain-orange			= orange grain background
+    grain-yellow			= yellow grain background
+
+    boxed 					= boxed layout
+    pattern1 ... patern11	= pattern background
+    menu-vertical-hide		= hidden, open on click
+
+    BACKGROUND IMAGE [together with .boxed class]
+    data-background="assets/images/_smarty/boxed_background/1.jpg"
+-->
+<body class="smoothscroll enable-animation">
+
+<!-- SLIDE TOP -->
+<div id="slidetop">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <h6><i class="icon-heart"></i> WHY SMARTY?</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. </p>
+            </div>
+
+            <div class="col-md-4">
+                <h6><i class="fa fa-check"></i> RECENTLY VISITED</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#"><i class="fa fa-angle-right"></i> Consectetur adipiscing elit amet</a></li>
+                    <li><a href="#"><i class="fa fa-angle-right"></i> This is a very long text, very very very very very very very very very very very very </a></li>
+                    <li><a href="#"><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet</a></li>
+                    <li><a href="#"><i class="fa fa-angle-right"></i> Dolor sit amet,consectetur adipiscing elit amet</a></li>
+                    <li><a href="#"><i class="fa fa-angle-right"></i> Consectetur adipiscing elit amet,consectetur adipiscing elit</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h6><i class="icon-envelope"></i> CONTACT INFO</h6>
+                <ul class="list-unstyled">
+                    <li><b>Address:</b> PO Box 21132, Here Weare St, <br> Melbourne, Vivas 2355 Australia</li>
+                    <li><b>Phone:</b> 1-800-565-2390</li>
+                    <li><b>Email:</b> <a href="mailto:support@yourname.com">support@yourname.com</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <a class="slidetop-toggle" href="#"><!-- toggle button --></a>
+
+</div>
+<!-- /SLIDE TOP -->
+
+
+<!-- wrapper -->
+<div id="wrapper">
+
+    <!--
+        AVAILABLE HEADER CLASSES
+
+        Default nav height: 96px
+        .header-md 		= 70px nav height
+        .header-sm 		= 60px nav height
+
+        .noborder 		= remove bottom border (only with transparent use)
+        .transparent	= transparent header
+        .translucent	= translucent header
+        .sticky			= sticky header
+        .static			= static header
+        .dark			= dark header
+        .bottom			= header on bottom
+
+        shadow-before-1 = shadow 1 header top
+        shadow-after-1 	= shadow 1 header bottom
+        shadow-before-2 = shadow 2 header top
+        shadow-after-2 	= shadow 2 header bottom
+        shadow-before-3 = shadow 3 header top
+        shadow-after-3 	= shadow 3 header bottom
+
+        .clearfix		= required for mobile menu, do not remove!
+
+        Example Usage:  class="clearfix sticky header-sm transparent noborder"
+    -->
+    <div id="header" class="sticky transparent clearfix fixed">
+
+        <!-- TOP NAV -->
+        <header id="topNav">
+            <div class="container">
+
+                <!-- Mobile Menu Button -->
+                <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+
+                <!-- BUTTONS -->
+                <ul class="pull-right nav nav-pills nav-second-main">
+
+                    <!-- SEARCH -->
+                    <li class="search">
+                        <a href="javascript:;">
+                            <i class="fa fa-search"></i>
+                        </a>
+                        <div class="search-box">
+                            <form action="page-search-result-1.html" method="get">
+                                <div class="input-group">
+                                    <input type="text" name="src" placeholder="Search" class="form-control">
+                                    <span class="input-group-btn">
+												<button class="btn btn-primary" type="submit">Search</button>
+											</span>
+                                </div>
+                            </form>
+                        </div>
+                    </li>
+                    <!-- /SEARCH -->
+
+                    <!-- QUICK SHOP CART -->
+
+                    <!-- /QUICK SHOP CART -->
+
+                </ul>
+                <!-- /BUTTONS -->
+
+
+                <!-- Logo -->
+                <a class="logo pull-left" href="index.html">
+                    <!--<img src="assets/images/_smarty/logo_light.png" alt="" />
+                    <img src="assets/images/_smarty/logo_dark.png" alt="" />-->
+                </a>
+
+                <!--
+                    Top Nav
+
+                    AVAILABLE CLASSES:
+                    submenu-dark = dark sub menu
+                -->
+                <div class="navbar-collapse pull-right nav-main-collapse collapse submenu-dark">
+                    <nav class="nav-main">
+
+                        <!--
+                            NOTE
+
+                            For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
+                            Direct Link Example:
+
+                            <li>
+                                <a href="#">HOME</a>
+                            </li>
+                        -->
+                        <ul id="topMain" class="nav nav-pills nav-main">
+                            <li class="dropdown active size-20 font-weight-bold"><!-- HOME -->
+                                <a class="dropdown-toggle" href="http://bdstory.co.kr/bbs/1010.php">
+                                    로또분석시스템
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="index-corporate-1.html">이번주 1등번호 받기</a></li>
+                                    <li><a href="index-corporate-2.html">로또리코만의 시스템</a></li>
+                                </ul>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown active">
+                                        <a class="dropdown-toggle" href="#">
+                                            로또자료실
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" href="#">
+                                            당첨커뮤니티
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" href="#">
+                                            고객센터
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" href="#">
+                                            이용가이드
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" href="#">
+                                            내정보관리
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown size-20  font-weight-bold"><!-- PAGES -->
+                                <a class="dropdown-toggle" href="#">
+                                    로또자료실
+                                </a>
+
+                            </li>
+
+                            <li class="dropdown mega-menu size-20  font-weight-bold"><!-- PORTFOLIO -->
+                                <a class="dropdown-toggle" href="#">
+                                    고객센터
+                                </a>
+
+                            </li>
+                            <li class="dropdown size-20  font-weight-bold"><!-- BLOG and SHOP -->
+                                <a class="dropdown-toggle" href="#">
+                                    이용가이드
+                                </a>
+
+                            </li>
+                            <li class="dropdown mega-menu size-20  font-weight-bold"><!-- SHORTCODES -->
+                                <a class="dropdown-toggle" href="#">
+                                    내정보관리
+                                </a>
+
+                            </li>
+
+
+
+                            <!--
+                                MENU ANIMATIONS
+                                    .nav-animate-fadeIn
+                                    .nav-animate-fadeInUp
+                                    .nav-animate-bounceIn
+                                    .nav-animate-bounceInUp
+                                    .nav-animate-flipInX
+                                    .nav-animate-flipInY
+                                    .nav-animate-zoomIn
+                                    .nav-animate-slideInUp
+
+                                    .nav-hover-animate 		= animate text on hover
+
+                                    .hover-animate-bounceIn = bounceIn effect on mouse over of main menu
+                            -->
+
+                        </ul>
+
+                    </nav>
+                </div>
+
+            </div>
+        </header>
+        <!-- /Top Nav -->
+
+    </div>
+
+
+
+    <!-- REVOLUTION SLIDER -->
+    <section id="slider" class="fullwidthbanner-container roundedcorners" style="max-height: none; overflow: visible;">
+
+        <div class="fullscreenbanner revslider-initialised tp-simpleresponsive" data-navigationstyle="preview4" id="revslider-702" style="height: 911px; max-height: none; perspective: 2500px; backface-visibility: hidden; transform-style: flat; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, 0, 0, 0, 1);">
+            <ul class="tp-revslider-mainul" style="display: block; overflow: hidden; width: 100%; height: 100%; max-height: none;">
+
+                <!-- SLIDE  -->
+                <li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide title 1" data-thumb="demo_files/images/150x99/27-min.jpg" class="tp-revslider-slidesli active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: hidden; opacity: 0; position: absolute; transform: matrix(1, 0, 0, 1, 0, 0); transform-origin: center center 0px;">
+
+                    <div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="center bottom" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined"><div class="tp-bgimg defaultimg" data-lazyload="/demo_files/images/new/network-2402637.jpg" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" data-lazydone="undefined" src="/demo_files/images/new/network-2402637.jpg" data-src="/demo_files/images/new/network-2402637.jpg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;/demo_files/images/new/network-2402637.jpg&quot;); background-size: cover; background-position: center bottom; width: 100%; height: 100%; opacity: 0; visibility: hidden;"></div></div>
+
+                    <div class="overlay dark-4"><!-- dark overlay [1 to 9 opacity] --></div>
+
+                    <div class="tp-caption customin ltl tp-resizeme text_white start" data-x="center" data-y="180" data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-speed="800" data-start="1000" data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 10; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 34px; border-width: 0px; margin: 0px; padding: 1px 10px; letter-spacing: 0px; font-size: 22px; left: 462px; top: 318.5px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, -1621, 0, 0, 1); transform-origin: 50% 0% 0px;">
+                        <span class="weight-300" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 34px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 22px;">최첨단의 인공지능으로 54,965,811,112 빅데이터를 구축함 &amp; AI</span>
+                    </div>
+
+                    <div class="tp-caption customin ltl tp-resizeme large_bold_white start" data-x="center" data-y="230" data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-speed="800" data-start="1200" data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 10; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 60px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 58px; left: 270.5px; top: 368.5px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, -1621, 0, 0, 1); transform-origin: 50% 0% 0px;">
+                        <span class="thema-color" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 60px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 58px;">숨은 패턴</span>을 찾아내는 번호예측 시스템!!
+                    </div>
+
+                    <div class="tp-caption customin ltl tp-resizeme small_light_white start" data-x="center" data-y="350" data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-speed="800" data-start="1400" data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 10; width: 750px; max-width: 750px; white-space: normal; text-align: center; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 17px; left: 405.5px; top: 488.5px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, -1621, 0, 0, 1); transform-origin: 50% 0% 0px;">
+                        venus 2.0 업데이트된 로또추첨기의 특징을 잡아내기 위한 머신러닝시스템 도입.
+                    </div>
+
+                    <div class="tp-caption customin ltl tp-resizeme small_light_white start" data-x="center" data-y="450" data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-speed="800" data-start="1600" data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 10; width: 750px; max-width: 750px; white-space: normal; text-align: center; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 17px; left: 405.5px; top: 588.5px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, -1621, 0, 0, 1); transform-origin: 50% 0% 0px;">
+                        1. 짧은 처리시간으로 빠른 당첨결과
+                    </div>
+
+                    <div class="tp-caption customin ltl tp-resizeme small_light_white start" data-x="center" data-y="500" data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-speed="800" data-start="1600" data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 10; width: 750px; max-width: 750px; white-space: normal; text-align: center; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 17px; left: 405.5px; top: 638.5px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, -1621, 0, 0, 1); transform-origin: 50% 0% 0px;">
+                        2. 디버깅 수정이 가능하여 낙첨시 데이터 즉시수정
+                    </div>
+                    <div class="tp-caption customin ltl tp-resizeme small_light_white start" data-x="center" data-y="550" data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-speed="800" data-start="1600" data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 10; width: 750px; max-width: 750px; white-space: normal; text-align: center; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 17px; left: 405.5px; top: 688.5px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, -1621, 0, 0, 1); transform-origin: 50% 0% 0px;">
+                        3. 단기.장기 기억데이터를 통한 로또통계를 재빠르게 분석
+                    </div>
+
+
+
+                </li>
+
+
+
+
+                <!-- SLIDE  -->
+                <li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide title 3" data-thumb="/demo_files/images/new/technology-3402365_1920.jpg" class="tp-revslider-slidesli active-revslide current-sr-slide-visible" style="width: 100%; height: 100%; overflow: hidden; visibility: inherit; opacity: 1; z-index: 20; position: absolute; transform: matrix(1, 0, 0, 1, 0, 0); transform-origin: center center 0px;">
+
+                    <div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="center bottom" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined"><div class="tp-bgimg defaultimg" data-lazyload="/demo_files/images/new/technology-3402365_1920.jpg" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" data-lazydone="undefined" src="/demo_files/images/new/technology-3402365_1920.jpg" data-src="/demo_files/images/new/technology-3402365_1920.jpg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;/demo_files/images/new/technology-3402365_1920.jpg&quot;); background-size: cover; background-position: center bottom; width: 100%; height: 100%; opacity: 1; visibility: inherit;"></div></div>
+
+                    <div class="overlay dark-4">&lt;!– dark overlay [1 to 9 opacity] –&gt;</div>
+
+                    <div class="tp-caption very_large_text lfb ltt tp-resizeme start" data-x="right" data-hoffset="-100" data-y="center" data-voffset="-100" data-speed="600" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="500" data-endeasing="Power4.easeIn" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 0px; left: 35px; top: 50px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+                        로또리코만의 분석시스템 VENUS 2.0 프로세서
+                    </div>
+
+                    <div class="tp-caption medium_light_white lfb ltt tp-resizeme start" data-x="right" data-hoffset="-100" data-y="center" data-voffset="30" data-speed="600" data-start="900" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="500" data-endeasing="Power4.easeIn" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 0px; left: 354px; top: 50px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+                        1. 인간이 해결하지 못하는 알고리즘으로 인한 디버깅수정<br style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 0px;">
+                        2. 낙첨시 사제적인 연구데이터를 포함하여 낙첨방지 구현<br style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 0px;">
+                        3. 기존 통계분석으로는 절대 구현이 불가능한 분석방식<br style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 0px;">
+                        4. RNN&amp;CNN을 결합하여 숨은패턴을 찾아낸 높은 확률의 고액당첨<br style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 0px;">
+                        <span style="font-size: 0px; font-weight: 400; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px;">– LOTTORICO ANALYSIS – </span>
+                    </div>
+
+                </li>
+
+            </ul>
+            <div class="tp-loader spinner0" style="display: none;"><div class="dot1"></div><div class="dot2"></div><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><div class="tp-bannertimer" style="visibility: visible; width: 47.2111%; transform: translate3d(0px, 0px, 0px);"></div></div>
+        <div style="position: absolute; top: 455px; margin-top: -40px; left: 0px;" class="tp-leftarrow tparrows default preview4 hidearrows"><div class="tp-arr-allwrapper"><div class="tp-arr-iwrapper"><div class="tp-arr-imgholder"></div><div class="tp-arr-imgholder2"></div><div class="tp-arr-titleholder"></div><div class="tp-arr-subtitleholder"></div></div></div></div><div style="position: absolute; top: 455px; margin-top: -40px; right: 0px;" class="tp-rightarrow tparrows default preview4 hidearrows"><div class="tp-arr-allwrapper"><div class="tp-arr-iwrapper"><div class="tp-arr-imgholder"></div><div class="tp-arr-imgholder2"></div><div class="tp-arr-titleholder"></div><div class="tp-arr-subtitleholder"></div></div></div></div></section>
+    <!-- /REVOLUTION SLIDER -->
+
+
+    <!-- PARALLAX -->
+    <section class="parallax parallax-2 nopadding-bottom" style="background-image: url(&quot;demo_files/images/wall2.jpg&quot;); background-position: 50% -125px;">
+        <div class="overlay dark-4"><!-- dark overlay [0 to 9 opacity] --></div>
+
+        <div class="container">
+            <div class="col-md-4 col-xs-12">
+                <div class="box-title margin-bottom-30">
+                    <h2 class="size-25 text-center">
+                        <span style="color:#e4ff24;">855회차</span> 당첨번호
+                        <div class="size-18 margin-bottom-6 margin-top-6">추첨일 : 2019.5.31</div>
+                        <div>
+                            <select name="turn" id="turn" class="form-group">
+                                <option value="">회차보기</option>
+                            </select>
+                        </div>
+                    </h2>
+
+                </div>
+
+            </div>
+            <div class="col-md-8 col-xs-12">
+                <div style="display: flex; justify-content: center">
+                    <div class="hit-num hidden-xs visible-md visible-lg">
+                        <ul>
+                            <li class="ball_645 lrg big ball2 size-40">8</li>
+                            <li class="ball_645 lrg big ball2 size-40">15</li>
+                            <li class="ball_645 lrg big ball3 size-40">17</li>
+                            <li class="ball_645 lrg big ball3 size-40">19</li>
+                            <li class="ball_645 lrg big ball4 size-40">43</li>
+                            <li class="ball_645 lrg big ball5 size-40">44</li>
+                            <li class="bonus visible-md visible-lg hidden-xs" style="line-height: 80px !important; font-size:40px;">+</li>
+                            <li class="bonus hidden-md hidden-lg visible-xs">+</li>
+                            <li class="ball_645 lrg big ball1 size-40">7</li>
+                        </ul>
+                    </div>
+                    <div class="hit-num visible-xs hidden-md hidden-lg margin-bottom-20">
+                        <ul>
+                            <li class="ball_645 lrg ball2" style="margin-right:2px !important; margin-left:2px !important;">8</li>
+                            <li class="ball_645 lrg ball2" style="margin-right:2px !important; margin-left:2px !important;">15</li>
+                            <li class="ball_645 lrg ball3" style="margin-right:2px !important; margin-left:2px !important;">17</li>
+                            <li class="ball_645 lrg ball3" style="margin-right:2px !important; margin-left:2px !important;">19</li>
+                            <li class="ball_645 lrg ball4" style="margin-right:2px !important; margin-left:2px !important;">43</li>
+                            <li class="ball_645 lrg ball5" style="margin-right:2px !important; margin-left:2px !important;">44</li>
+                            <li class="bonus" style="margin-right:2px !important; margin-left:2px !important;">+</li>
+                            <li class="ball_645 lrg ball1" style="margin-right:2px !important; margin-left:2px !important;">7</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container margin-top-10 margin-bottom-30" style="display: flex; justify-content: start;">
+                    <div class="col-md-3 margin-bottom-20 margin-top-10">
+                        <span style="display: block;" class="margin-bottom-10">1등 당첨자 <span style="color:#f7ff2f;">7명</span></span>
+                        <span style="display: block;">1등 당첨금 <span style="color:#f7ff2f;">3,000,000,000원</span></span>
+                    </div>
+                    <div class="col-md-3 margin-bottom-20 margin-top-10">
+                        <span style="display: block;" class="margin-bottom-10">2등 당첨자 <span style="color:#f7ff2f;">7명</span></span>
+                        <span style="display: block;">2등 당첨금 <span style="color:#f7ff2f;">3,000,000,000원</span></span>
+                    </div>
+                    <div class="col-md-3  margin-bottom-20 margin-top-10">
+                        <span style="display: block;" class="margin-bottom-10">3등 당첨자 <span style="color:#f7ff2f;">7명</span></span>
+                        <span style="display: block;">3등 당첨금 <span style="color:#f7ff2f;">3,000,000,000원</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- /PARALLAX -->
+
+
+    <!-- 가격정책 -->
+    <section id="slider3" class="fullwidthbanner-container roundedcorners hidden-sm hidden-xs" style="max-height: none; overflow: visible; height: 938px; display: block;">
+
+        <div class="fullscreenbanner revslider-initialised tp-simpleresponsive" data-navigationstyle="preview4" id="revslider-507" style="height: 100%; max-height: none;">
+            <ul class="tp-revslider-mainul" style="display: block; overflow: hidden; width: 100%; height: 100%; max-height: none;">
+
+
+                <li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide title 1" data-thumb="demo_files/images/150x99/27-min.jpg" class="tp-revslider-slidesli active-revslide current-sr-slide-visible" style="width: 100%; height: 100%; overflow: hidden; visibility: inherit; opacity: 1; z-index: 20;">
+
+                    <div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="center bottom" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined"><div class="tp-bgimg defaultimg" data-lazyload="/demo_files/images/new/code-1839406_1920.jpg" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" data-lazydone="undefined" src="/demo_files/images/new/code-1839406_1920.jpg" data-src="/demo_files/images/new/code-1839406_1920.jpg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;/demo_files/images/new/code-1839406_1920.jpg&quot;); background-size: cover; background-position: center bottom; width: 100%; height: 100%; opacity: 1; visibility: inherit;"></div></div>
+
+                    <div class="overlay dark-4"><!-- dark overlay [1 to 9 opacity] --></div>
+
+                    <div class="tp-caption customin ltl tp-resizeme text_white start" data-x="center" data-y="120" data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-speed="800" data-start="1000" data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 3; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 34px; border-width: 0px; margin: 0px; padding: 1px 10px; letter-spacing: 0px; font-size: 22px; left: 599px; top: 258.5px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1); transform-origin: 50% 0% 0px;">
+                        <span class="weight-300" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 34px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 22px;">당신이 이번주 1등에 주인공입니다.</span>
+                    </div>
+
+                    <div class="tp-caption customin ltl tp-resizeme large_bold_white start" data-x="center" data-y="50" data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-speed="800" data-start="1200" data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 3; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 60px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 58px; left: 541px; top: 188.5px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1); transform-origin: 50% 0% 0px;">
+                        로또리코 상품안내
+                    </div>
+
+                    <div class="tp-caption customin ltl tp-resizeme small_light_white start" data-x="center" data-y="190" data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-speed="800" data-start="1400" data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 3; width: 750px; max-width: 750px; white-space: normal; text-align: center; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 17px; left: 405.5px; top: 328.5px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1); transform-origin: 50% 0% 0px;">
+                        <div class="row" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px -15px; padding: 0px; letter-spacing: 0px; font-size: 17px;">
+
+                            <div class="col-md-6 col-sm-12 col-xs-18" style="transition: all 0s ease 0s; min-height: 1px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px 15px; letter-spacing: 0px; font-size: 17px;">
+
+                                <div class="price-clean" style="background: linear-gradient(rgb(85, 85, 85) 0%, rgb(49, 49, 49) 100%); transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 1px; margin: 0px; padding: 30px 10px; letter-spacing: 0px; font-size: 17px;">
+                                    <h4 style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 60px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 60px;">
+                                        <span class="theme-color" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 60px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 60px;"> A플랜</span><em style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 60px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 14px;"></em>
+                                    </h4>
+                                    <hr style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 20px 0px; padding: 0px; letter-spacing: 0px; font-size: 17px;">
+                                    <h5 class="margin-bottom-15" style="color: yellow; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 0px; margin: 0px 0px 15px; padding: 0px; letter-spacing: 2px; font-size: 15px;"> 기본적인 분석시스템 </h5>
+                                    <a href="#" class="btn btn-3d btn-teal" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 26px; border-width: 1px 1px 3px; margin: 0px 0px 3px; padding: 6px 12px; letter-spacing: 0px; font-size: 14px;">상세보기</a>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6 col-sm-12" style="background: linear-gradient(rgb(85, 85, 85) 0%, rgb(49, 49, 49) 100%); transition: all 0s ease 0s; min-height: 1px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px 15px; letter-spacing: 0px; font-size: 17px;">
+
+                                <div class="price-clean" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 1px; margin: 0px; padding: 30px 10px; letter-spacing: 0px; font-size: 17px;">
+                                    <h4 style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 60px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 60px;">
+                                        <span class="theme-color" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 60px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 60px;"> B플랜</span><em style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 60px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 14px;"></em>
+                                    </h4>
+                                    <hr style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 20px 0px; padding: 0px; letter-spacing: 0px; font-size: 17px;">
+                                    <h5 class="margin-bottom-15" style="color: yellow; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 0px; margin: 0px 0px 15px; padding: 0px; letter-spacing: 2px; font-size: 15px;"> 번번한 당첨조합 </h5>
+                                    <a href="#" class="btn btn-3d btn-teal" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 26px; border-width: 1px 1px 3px; margin: 0px 0px 3px; padding: 6px 12px; letter-spacing: 0px; font-size: 14px;">상세보기</a>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="tp-caption customin ltl tp-resizeme small_light_white start" data-x="center" data-y="465" data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-speed="800" data-start="1400" data-easing="easeOutQuad" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 3; width: 750px; max-width: 750px; white-space: normal; text-align: center; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 17px; left: 405.5px; top: 603.5px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1); transform-origin: 50% 0% 0px;">
+                        <div class="row" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px -15px; padding: 0px; letter-spacing: 0px; font-size: 17px;">
+
+                            <div class="col-md-6 col-sm-12" style="transition: all 0s ease 0s; min-height: 1px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px 15px; letter-spacing: 0px; font-size: 17px;">
+
+                                <div class="price-clean" style="background: linear-gradient(rgb(85, 85, 85) 0%, rgb(49, 49, 49) 100%); transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 1px; margin: 0px; padding: 30px 10px; letter-spacing: 0px; font-size: 17px;">
+                                    <h4 style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 60px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 60px;">
+                                        <span class="theme-color" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 60px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 60px;"> S플랜</span><em style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 60px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 14px;"></em>
+                                    </h4>
+                                    <hr style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 20px 0px; padding: 0px; letter-spacing: 0px; font-size: 17px;">
+                                    <h5 class="margin-bottom-15" style="color: yellow; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 0px; margin: 0px 0px 15px; padding: 0px; letter-spacing: 2px; font-size: 15px;"> VENUS2.0 조합제공 </h5>
+                                    <a href="#" class="btn btn-3d btn-teal" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 26px; border-width: 1px 1px 3px; margin: 0px 0px 3px; padding: 6px 12px; letter-spacing: 0px; font-size: 14px;">상세보기</a>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6 col-sm-12" style="background: linear-gradient(rgb(85, 85, 85) 0%, rgb(49, 49, 49) 100%); transition: all 0s ease 0s; min-height: 1px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px 15px; letter-spacing: 0px; font-size: 17px;">
+
+                                <div class="price-clean" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 1px; margin: 0px; padding: 30px 10px; letter-spacing: 0px; font-size: 17px;">
+                                    <h4 style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 60px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 60px;">
+                                        <span class="theme-color" style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 60px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 60px;">R플랜</span><em style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 60px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 14px;"></em>
+                                    </h4>
+                                    <hr style="transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 28px; border-width: 0px; margin: 20px 0px; padding: 0px; letter-spacing: 0px; font-size: 17px;">
+                                    <h5 class="margin-bottom-15" style="color: yellow; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 22px; border-width: 0px; margin: 0px 0px 15px; padding: 0px; letter-spacing: 2px; font-size: 15px;"> RNN,CNN 구현조합 </h5>
+                                    <a href="#" class="btn btn-3d btn-teal" style="transition: all 0.2s ease-out 0s; min-height: 0px; min-width: 0px; line-height: 26px; border-width: 1px 1px 3px; margin: 0px 0px 3px; padding: 6px 12px; letter-spacing: 0px; font-size: 14px;">상세보기</a>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </li>
+                <!-- SLIDE -->
+
+
+
+
+            </ul>
+            <div class="tp-loader spinner0" style="display: none;"><div class="dot1"></div><div class="dot2"></div><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><div class="tp-bannertimer" style="visibility: hidden; width: 0%;"></div></div>
+    </section>
+    <!-- /설명 박스 -->
+
+
+
+    <section class="hidden-md hidden-lg">
+        <div class="row">
+
+            <div class="col-md-3 col-sm-3">
+
+                <div class="price-clean price-clean-popular" style="background: linear-gradient(to bottom, #555555 0%,#313131 100%);">
+                    <h4>
+                        A플랜<em></em>
+                    </h4>
+                    <hr>
+                    <h5 class="margin-bottom-15" style="color:yellow;"> 기본적인 분석시스템 </h5>
+                    <a href="#" class="btn btn-3d btn-teal">상세보기</a>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 col-sm-3">
+
+                <div class="price-clean price-clean-popular" style="background: linear-gradient(to bottom, #555555 0%,#313131 100%);">
+                    <h4>
+                        B플랜<em></em>
+                    </h4>
+                    <hr>
+                    <h5 class="margin-bottom-15" style="color:yellow;"> 번번한 당첨조합 </h5>
+                    <a href="#" class="btn btn-3d btn-teal">상세보기</a>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 col-sm-3">
+
+                <div class="price-clean price-clean-popular" style="background: linear-gradient(to bottom, #555555 0%,#313131 100%);">
+
+                    <h4>
+                        S플랜<em></em>
+                    </h4>
+                    <hr>
+                    <h5 class="margin-bottom-15" style="color:yellow;"> VENUS2.0 조합제공 </h5>
+
+
+                    <a href="#" class="btn btn-3d btn-teal">상세보기</a>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 col-sm-3">
+
+                <div class="price-clean price-clean-popular" style="background: linear-gradient(to bottom, #555555 0%,#313131 100%);">
+                    <h4>
+                        R플랜<em></em>
+                    </h4>
+                    <hr>
+                    <h5 class="margin-bottom-15" style="color:yellow;"> RNN,CNN 구현조합 </h5>
+                    <a href="#" class="btn btn-3d btn-teal">상세보기</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Services -->
+    <section>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm-6 col-md-4 col-lg-4">
+
+                    <div class="box-icon box-icon-left">
+                        <a class="box-icon-title" href="#">
+                            <i class="fa fa-tablet"></i>
+                            <h2>1. S플랜 회원가입</h2>
+                        </a>
+                        <p class="text-muted">S플랜 간편 가입 서비스를 통해 S플랜의 특별한 혜택을 쉽고 빠르게 이용하실 수 있습니다.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-4">
+
+                    <div class="box-icon box-icon-left">
+                        <a class="box-icon-title" href="#">
+                            <i class="et-document"></i>
+                            <h2>2. 매주 문자로 제공되는 20조합 받기</h2>
+                        </a>
+                        <p class="text-muted">로또리코가 선정한 최적의 로또번호를 매주 20조합을 받습니다.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="col-sm-6 col-md-4 col-lg-4">
+
+                    <div class="box-icon box-icon-left">
+                        <a class="box-icon-title" href="#">
+                            <i class="et-briefcase"></i>
+                            <h2>3. vennu 2.0 시스템</h2>
+                        </a>
+                        <p class="text-muted">지금까지 당첨된 번호를 최적의 조합으로 만들어내는 시스템</p>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-4">
+
+                    <div class="box-icon box-icon-left">
+                        <a class="box-icon-title" href="#">
+                            <i class="et-megaphone"></i>
+                            <h2>4. 조합받은 번호를 구매</h2>
+                        </a>
+                        <p class="text-muted">설정된 요일에 받은 20조합과 추가로 만든 나만의 조합을 로또판매점에서 구매합니다. </p>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-4">
+
+                    <div class="box-icon box-icon-left">
+                        <a class="box-icon-title" href="#">
+                            <i class="et-flag"></i>
+                            <h2>5. 매주문자로 당첨결과 확인</h2>
+                        </a>
+                        <p class="text-muted">매주 로또 방송종료와 함께 발송되는 당첨안내문자 받기.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-4">
+
+                    <div class="box-icon box-icon-left">
+                        <a class="box-icon-title" href="#">
+                            <i class="et-puzzle"></i>
+                            <h2>6. 당첨후기 남기기</h2>
+                        </a>
+                        <p class="text-muted">당첨 후기 남기고 참여/당첨금 수령하기.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- /Services -->
+
+
+    <!-- 문자 받기 -->
+    <section class="parallax parallax-2 nopadding-bottom" style="background-image: url(&quot;demo_files/images/wall2.jpg&quot;); background-position: 50% 178px;">
+        <div class="overlay dark-4"><!-- dark overlay [0 to 9 opacity] --></div>
+
+        <div class="container">
+
+            <div class="col-md-12 col-xs-12">
+                <div style="display: flex; justify-content: center">
+                    <div class="hit-num hidden-xs visible-md visible-lg">
+                        <h3>지금까지 <span style="color:#f7ff2f;">287,248</span>명이 받으셨습니다.</h3>
+                    </div>
+
+                </div>
+                <div class="container margin-top-10 margin-bottom-30" style="display: flex; justify-content: center;">
+                    <div class="col-md-6 margin-bottom-20 margin-top-10 center">
+                        <div style="display: block;" class="margin-bottom-10">
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon" style="color:#385bc0;">HP</div>
+                                        <input type="text" class="form-control" id="exampleInputAmount" placeholder="휴대폰번호입력">
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg">무료번호받기</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- CALLOUT -->
+    <section class="callout-dark heading-title heading-arrow-bottom">
+        <div class="container">
+
+            <div class="text-center">
+                <h3 class="size-30">LOTTORICO</h3>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- /CALLOUT -->
+
+    <!-- CALLOUT -->
+    <div class="alert alert-transparent bordered-bottom nomargin">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-9 col-sm-12"><!-- left text -->
+                    <h3>고객센터 <span><strong>+032-710-7988</strong></span> 빠르게 해결해 드리겠습니다.!</h3>
+                    <!--<p class="font-lato weight-300 size-20 nomargin-bottom">
+                        We truly care about our users and our product.
+                    </p>-->
+                </div><!-- /left text -->
+
+
+                <div class="col-md-3 col-sm-12 text-right"><!-- right btn -->
+                    <a href="#purchase" rel="nofollow" target="_blank" class="btn btn-primary btn-lg">지금바로 가입하세요!</a>
+                </div><!-- /right btn -->
+
+            </div>
+
+        </div>
+    </div>
+    <!-- /CALLOUT -->
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <!-- Latest Blog Post -->
+                    <h4 class="letter-spacing-1">회사명 : (주)더블에이치컴퍼니</h4>
+                    <h4 class="letter-spacing-1">사업자등록번호 : 404-87-01366</h4>
+                    <h4 class="letter-spacing-1">고객센터 이메일: lottorico1@gmail.com</h4>
+                </div>
+                <div class="col-md-6">
+
+                    <!-- Latest Blog Post -->
+                    <h4 class="letter-spacing-1">주소 : 인천광역시 미추홀구 주안로213번길 15, 404호(주안동)</h4>
+                    <h4 class="letter-spacing-1">전화 : 032-710-7988 팩스 : 032-710-7989</h4>
+                    <h4 class="letter-spacing-1">개인정보관리책임자 : 이길호</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <div class="container">
+
+                © All Rights Reserved, doublehcompany
+            </div>
+        </div>
+    </footer>
+    <!-- /FOOTER -->
+
+</div>
+<!-- /wrapper -->
+
+
+<!-- SCROLL TO TOP -->
+<a href="#" id="toTop" style="display: block;"></a>
+
+
+<!-- PRELOADER -->
+<!-- /PRELOADER -->
+
+
+<!-- JAVASCRIPT FILES -->
+<script type="text/javascript">var plugin_path = '/assets/plugins/';</script>
+<script type="text/javascript" src="/assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+
+<script type="text/javascript" src="/assets/js/scripts.js"></script>
+
+<!-- STYLESWITCHER - REMOVE -->
+<!--<script async type="text/javascript" src="demo_files/styleswitcher/styleswitcher.js"></script>-->
+
+<!-- REVOLUTION SLIDER -->
+<script type="text/javascript" src="/assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="/assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="/assets/js/view/demo.revolution_slider.js"></script>
+
+<script type="text/javascript" src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script><script type="text/javascript" src="assets/plugins/smoothscroll.js"></script></body></html>

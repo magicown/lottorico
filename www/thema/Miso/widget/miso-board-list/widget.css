@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* miso-board-list */
+.miso-board-list .widget-head { padding:12px 15px 8px !important; margin:0px; font-weight:bold; border-bottom:1px dotted #aaa; background: #fff; }
+.miso-board-list .widget-body { padding:15px 15px 10px; margin:0px; background: #fff; }
+.miso-board-list .widget-more { font-size:11px; font-weight:normal; color:#888; letter-spacing:-1px; margin-top:1px; }
+.miso-board-list ul { padding:0px; margin:0px; line-height:22px; list-style:none; }
+.miso-board-list li { margin:0; padding:0px; }
+.miso-board-list li a { margin:0; padding:0px; display:block; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }
+.miso-board-list li a:hover { color:crimson; }
+.miso-board-list li .icon { color:#ddd; margin-right:2px; }
+.miso-board-list li .rank-icon { display:inline-block; padding:0px 6px; font-size:11px; letter-spacing:-1px; line-height:16px; margin-right:2px; }
+.miso-board-list li .cnt { font-size:10px; font-family:verdana; letter-spacing:-1px; font-weight:bold; color: rgb(233, 27, 35); margin-left:12px; margin-right:4px; }
+.miso-board-list .btn-wset { margin-top:10px; }

@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/* Colorset Reset */
+.at-page { background: none; padding:0px 0px 15px; border:0; margin-bottom:20px; }
+.at-page.at-page-mobile { padding:0px 0px 15px; }
+
+.bsk-tbl th { text-align:center; width:120px; }
+.bsk-tbl .well { margin:6px 0px !important; }
+.bsk-tbl .well ul  { padding:0; padding-left:15px; margin:0; }
+.bsk-tbl .well li  { font-size:12px; }

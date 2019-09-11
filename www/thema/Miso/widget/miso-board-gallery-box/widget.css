@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* miso-board-gallery-box */
+.miso-board-gallery-box { position: relative; line-height:20px; }
+.miso-board-gallery-box .widget-head { padding:12px 15px 8px !important; margin:0px; font-weight:bold; border-bottom:1px dotted #aaa; background: #fff; }
+.miso-board-gallery-box .widget-body { padding:15px; margin:0px; background: #fff; }
+.miso-board-gallery-box .widget-more { font-size:11px; font-weight:normal; color:#888; letter-spacing:-1px; margin-top:1px; }
+.miso-board-gallery-box .row { margin:0px; }
+.miso-board-gallery-box .col { padding:0px; }
+.miso-board-gallery-box .img { display:block; position:relative; height:0; overflow:hidden; text-align:center; background:#f5f5f5; }
+.miso-board-gallery-box .img img { display:block; position:absolute; top:0; left:0; margin:0 auto; width:100%; height:auto; border:0px; }
+.miso-board-gallery-box .caption {  display:block; text-align:left; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; background:#000; color:#fff; padding: 6px 10px; transition:transform 0.4s, opacity 0.1s 0.3s; left: 0px; width: 100%; bottom: 0px; position: absolute; opacity: 0; transform: translateY(100%); -o-transition: -o-transform .4s, opacity .1s .3s; -moz-transition: -moz-transform .4s, opacity .1s .3s; -webkit-transition: -webkit-transform .4s, opacity .1s .3s; -webkit-transform: translateY(100%); -moz-transform: translateY(100%); -o-transform: translateY(100%); }
+.miso-board-gallery-box .img:hover .caption { transition:transform 0.4s, opacity 0.1s; opacity: 0.8; transform: translateY(0px); -o-transition: -o-transform .4s, opacity .1s; -moz-transition: -moz-transform .4s, opacity .1s; -webkit-transition: -webkit-transform .4s, opacity .1s; -webkit-transform: translateY(0); -moz-transform: translateY(0); -o-transform: translateY(0); }
+.miso-board-gallery-box .caption .cnt { font-size:10px; font-family:verdana; letter-spacing:-1px; font-weight:bold; color: orangered; margin-left:12px; margin-right:4px; }
+.miso-board-gallery-box .caption .icon { color:#ddd; margin-right:2px; }
+.miso-board-gallery-box .caption .rank-icon { display:inline-block; padding:0px 6px; font-size:11px; letter-spacing:-1px; line-height:16px; margin-right:2px; }
+.miso-board-gallery-box .btn-wset { margin-top:10px; }

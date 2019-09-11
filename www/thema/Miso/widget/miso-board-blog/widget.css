@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* miso-board-blog */
+.miso-board-blog { position: relative; line-height:20px; }
+.miso-board-blog .carousel-nav i { color: rgb(248, 248, 248); opacity:0.5; filter: alpha(opacity=50); text-shadow: 0px 1px 2px rgba(0,0,0,0.6); }
+.miso-board-blog .carousel-nav i:hover { color: rgb(255, 255, 255); opacity:1; filter: alpha(opacity=100); }
+.miso-board-blog .carousel-nav .prev-fa { left: 25px; }
+.miso-board-blog .carousel-nav .next-fa { right: 25px; } 
+.miso-board-blog .carousel-nav .prev-fa, .miso-board-blog .carousel-nav .next-fa  { position: absolute; top: 50%; z-index: 5; display: inline-block; font-size:50px; margin-top:-97px; }
+.miso-board-blog .carousel { background:#fff; }
+.miso-board-blog .carousel-indicators.indicators-height { bottom:145px !important; }
+.miso-board-blog .carousel-indicators .active { background: rgb(52, 152, 219); border:0px; }
+.miso-board-blog .carousel-indicators li { border:0px; background: rgb(255, 255, 255);}
+.miso-board-blog .img { display:block; position:relative; height:0; overflow:hidden; text-align:center; background:#f5f5f5; }
+.miso-board-blog .img img { display:block; position:absolute; top:0; left:0; margin:0 auto; width:100%; height:auto; border:0px; }
+.miso-board-blog .content { padding:12px; height:145px; overflow:hidden; }
+.miso-board-blog .content h2 { margin:0; padding:8px 0px 10px; font-size: 15px; line-height:20px; font-weight: bold; display:block; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }
+.miso-board-blog .content h2 a:hover { color:crimson; }
+.miso-board-blog .content p { color:#888; padding:0px; margin:0px; line-height:20px; overflow:hidden; height:60px; }
+.miso-board-blog .content b { font-size:11px; font-family:verdana; color: rgb(52, 152, 219); display:block; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; overflow:hidden; }
+.miso-board-blog .content .cnt { color: rgb(233, 27, 35); font-family:tahoma; margin-left:12px; margin-right:4px; }
+.miso-board-blog .content .rank-icon { display:inline-block; color:#fff; padding:0px 6px; font-size:11px; letter-spacing:-1px; line-height:16px; margin-right:2px; }
+.miso-board-blog .btn-wset { margin-top:10px; }

@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* miso-misc-poll */
+.miso-misc-poll { }
+.miso-misc-poll .panel-group { margin:0px; }
+.miso-misc-poll .panel-heading { background: #fff !important; }
+.miso-misc-poll .panel-body { border-top:1px solid #ddd; }
+.miso-misc-poll .poll-list { padding:10px 0px; }
+.miso-misc-poll .poll-list i { margin-right:2px; color:#aaa; }
+.miso-misc-poll .poll-list .btn:hover i, .miso-misc-poll .poll-list .btn.active i { color:crimson; }
+.miso-misc-poll .poll-list .poll-item { text-align:left; padding-left:12px; }
+.miso-misc-poll .btn-wset { margin-top:10px; }

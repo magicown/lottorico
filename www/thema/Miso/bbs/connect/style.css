@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+/* Colorset Reset */
+.at-page { background: none; padding:0px 0px 15px; border:0; margin-bottom:20px; }
+.at-page.at-page-mobile { padding:0px 0px 15px; }
+
+.cur-connect .sv_member { font-weight:bold; }
